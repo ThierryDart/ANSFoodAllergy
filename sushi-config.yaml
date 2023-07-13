@@ -16,7 +16,7 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#FR "France" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: ANS - Agence du Num�rique en Sant�
+  name: ANS - Agence du Numérique en Santé
   url: http://esante.gouv.fr
   # email: test@example.org
 
@@ -43,9 +43,11 @@ publisher:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
+pages:
+  index.md:
+    title: Home
+  intro.md:
+    title: Introduction
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
